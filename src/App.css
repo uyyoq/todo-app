@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  font-family: 'Josefin Sans', cursive, 'Kaushan Script', 'Sriracha', 'Patrick Hand';
 }
 
 .todo-app {
@@ -19,6 +26,7 @@ h1 {
   margin: 32px 0;
   text-align: center;
   color: black;
+  font-family: 'Kaushan Script';
   font-size: 24px;
 }
 
@@ -75,10 +83,12 @@ h1 {
   color: black;
   padding: 16px;
   border-radius: 5px;
+  font-family: 'Patrick Hand';
 }
 
 @media only screen and (min-width:640px) {
  .todo-row {
+   /* mobile */
   width: 50%;
  }
 }
@@ -92,6 +102,7 @@ h1 {
 
 @media only screen and (min-width:1024px) {
   .todo-row {
+    /* laptop */
    width: 27%;
   }
  }
@@ -99,9 +110,9 @@ h1 {
 
 .icons {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: space-between;
-  font-size: 24px;
+  font-size: 17px;
   cursor: pointer;
 }
 

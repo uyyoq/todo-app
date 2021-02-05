@@ -45,7 +45,7 @@ function TodoList(props) {
   }
   return (
     <div>
-      <h1>My ToO do</h1>
+      <h1>My TOdo</h1>
       <TodoForm onSubmit={addTodo} />
       <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo}/>
     </div>
